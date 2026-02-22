@@ -1,7 +1,10 @@
 .new-page {
   width: 100vw;
   min-height: 100vh;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background-image: url('./assets/harry\ potter\ train.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   padding: 2rem;
   display: flex;
   align-items: center;

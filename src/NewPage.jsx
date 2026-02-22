@@ -32,7 +32,7 @@ function NewPage({ onBack }) {
       {quizState === 'quiz' && (
         <div className="quiz-page">
           <Quiz onComplete={handleQuizComplete} />
-          <button className="back-btn" onClick={() => setQuizState('intro')}>Back</button>
+          <button className="back-btn" onClick={onBack}>Back</button>
         </div>
       )}
 
