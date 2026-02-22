@@ -1,7 +1,7 @@
 .new-page {
   width: 100vw;
   min-height: 100vh;
-  background-image: url('./assets/harry\ potter\ train.png');
+  background-image: url('./assets/minecraftHogwarts.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -87,11 +87,15 @@
 .result-page {
   width: 100%;
   max-width: 900px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
 }
 
 /* Potion Result Styling */
 .potion-result {
-  background: white;
+  background: #fff;
   border-radius: 20px;
   padding: 3rem 2rem;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
